@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "compile",
-      "setup": "mvn compile",
+      "setup": "set JAVA_HOME=\"/usr/lib/jvm/msopenjdk-current/bin/\"",
       "run": "mvn compile",
       "input": "",
       "output": "",
@@ -12,7 +12,7 @@
     },
     {
       "name": "spring run",
-      "setup": "",
+      "setup": "set JAVA_HOME=\"/usr/lib/jvm/msopenjdk-current/bin/\"",
       "run": "mvn spring-boot:run ",
       "input": "",
       "output": "",
