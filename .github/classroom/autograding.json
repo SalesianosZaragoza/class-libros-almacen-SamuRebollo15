@@ -12,8 +12,8 @@
     },
     {
       "name": "spring run",
-      "setup": "set JAVA_HOME=\"/usr/lib/jvm/msopenjdk-current/bin/\"",
-      "run": "mvn spring-boot:run ",
+      "setup": "",
+      "run": "sudo apt install -y openjdk-17-jdk && export PATH=\"/usr/lib/jvm/java-17-openjdk-amd64/bin/:$PATH\" && mvn --version && mvn spring-boot:run ",
       "input": "",
       "output": "",
       "comparison": "exact",
