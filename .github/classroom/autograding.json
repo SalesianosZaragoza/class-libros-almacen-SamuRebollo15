@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "compile",
-      "setup": "set JAVA_HOME=\"/usr/lib/jvm/msopenjdk-current/bin/\" & echo $JAVA_HOME",
-      "run": "mvn --version",
+      "setup": "sudo apt update && sudo apt install openjdk-17-jdk && export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64",
+      "run": "mvn compile",
       "input": "",
       "output": "",
       "comparison": "exact",
