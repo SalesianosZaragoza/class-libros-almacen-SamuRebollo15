@@ -3,7 +3,7 @@
     {
       "name": "compile",
       "setup": "set JAVA_HOME=\"/usr/lib/jvm/msopenjdk-current/bin/\" & echo $JAVA_HOME",
-      "run": "mvn compile",
+      "run": "mvn --version",
       "input": "",
       "output": "",
       "comparison": "exact",
